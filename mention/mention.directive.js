@@ -120,7 +120,7 @@ var MentionDirective = (function () {
     };
     MentionDirective.prototype.keyHandler = function (event, nativeElement) {
         if (nativeElement === void 0) { nativeElement = this._element.nativeElement; }
-        var val = mention_utils_1.getValue(nativeElement);
+        var val = mention_utils_1.getValue(nativeElement).replace(/\s/g, "");
         var pos = mention_utils_1.getCaretPosition(nativeElement, this.iframe);
         var charPressed = event.key;
         if (!charPressed) {
