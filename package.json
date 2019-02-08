@@ -1,0 +1,128 @@
+{
+  "_args": [
+    [
+      "angular-mentions@^0.9.0",
+      "/home/florin/Projects/PMTool2_2/frontend"
+    ]
+  ],
+  "_from": "angular-mentions@>=0.9.0 <0.10.0",
+  "_hasShrinkwrap": false,
+  "_id": "angular-mentions@0.9.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/angular-mentions",
+  "_nodeVersion": "8.11.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/angular-mentions_0.9.0_1542241863868_0.6512753770115041"
+  },
+  "_npmUser": {
+    "email": "dan@dancity.net",
+    "name": "dmacfarlane"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "angular-mentions",
+    "raw": "angular-mentions@^0.9.0",
+    "rawSpec": "^0.9.0",
+    "scope": null,
+    "spec": ">=0.9.0 <0.10.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/angular-mentions/-/angular-mentions-0.9.0.tgz",
+  "_shasum": "d75b34045b51c2fe2559a26a02029bc3e7c179f2",
+  "_shrinkwrap": null,
+  "_spec": "angular-mentions@^0.9.0",
+  "_where": "/home/florin/Projects/PMTool2_2/frontend",
+  "angular-cli": {},
+  "author": {
+    "name": "Dan MacFarlane"
+  },
+  "bugs": {
+    "url": "https://github.com/dmacfarlane/angular-mentions/issues"
+  },
+  "dependencies": {},
+  "description": "Angular mentions for text fields.",
+  "devDependencies": {
+    "@angular/cli": "^1.0.0",
+    "@angular/common": "^4.0.0",
+    "@angular/compiler": "^4.0.0",
+    "@angular/compiler-cli": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "@angular/forms": "^4.0.0",
+    "@angular/http": "^4.0.0",
+    "@angular/platform-browser": "^4.0.0",
+    "@angular/platform-browser-dynamic": "^4.0.0",
+    "@angular/router": "^4.0.0",
+    "@types/jasmine": "2.5.38",
+    "@types/node": "^6.0.60",
+    "angular-in-memory-web-api": "^0.3.2",
+    "codelyzer": "~2.0.0",
+    "core-js": "~2.4.1",
+    "jasmine-core": "~2.5.2",
+    "jasmine-spec-reporter": "~3.2.0",
+    "karma": "~1.4.1",
+    "karma-chrome-launcher": "~2.0.0",
+    "karma-cli": "~1.0.1",
+    "karma-coverage-istanbul-reporter": "^0.2.0",
+    "karma-jasmine": "~1.1.0",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "protractor": "~5.1.0",
+    "rxjs": "^5.1.0",
+    "ts-node": "~3.3.0",
+    "tslint": "~4.5.0",
+    "typescript": "~2.1.0",
+    "zone.js": "^0.8.4"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 25,
+    "integrity": "sha512-0Ei2HoQCStcPe8GrE1CUA/PHjlmbLJHDBmN9LuoBCViwlprWfdB0eZP1C+5Qp6oVMtrJIIWfx5uknTXuhCfCAg==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb7L5ICRA9TVsSAnZWagAA+qEQAIs8R5T5PEp4hxLk+hnm\nQJTDeIfU7da7wFDfmWwgCcXj2jA3UZ1j4rt9oEllYVN5ZctTQEMy9pS/kLVM\nYSBfnP7czpX6FEOLewRRYZLxzwD/98LPcmrxi17W7mLiCEHvhWWaBg+qdKOV\n49BgI3UkNyIFVjfZ52frDPESWPlbjtna4FN6p2ZF4KVAjdYZhb2rsGpfTDey\nAPFD+IVTDJF1SFMlgo9Z0MFg1MEZYes1pisit3SLE7aGkML5mv2VuVAxcQLx\n6nsTiFXj+0rCw/ydKtXFIgrMz4O+ZFHgQbcx1Ml2JaoRU6Ye0P22GWhZLYOj\nr1E0GxTQ1Deg3UaJL6IbCfloaQknHVZFKMw+ErwlDWWsirMbOEwlei9+0R6N\n51BBH2wQOh4EL5dGobt0QejuYIriDdM+o0ny7GkZ55uvId9YqlaOoKyoysYv\nohI8SXVwtSq0udmidpAIYQGYuo3Oo/CDuO1WO1yU95XXMd+N3bpb9S6cMhfy\n3CPMRyXhH9Mf2lj4DZsbxr+P8s6JhthZArlp+sYNJ2iyGSJl9PigPFNmCK9e\nhmlCfXS3t7UrfzbCQ18CoX5HPvm9MZIW4NMJYsQo1cFoGcInAEZ9ElOuPHA+\nLvZPd8c7sEVH2W6CbN9ATxOpHC5YfW1YJTISIukzTGyLqwYjX0+qOFEkEttJ\nFVqC\r\n=dWxE\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "d75b34045b51c2fe2559a26a02029bc3e7c179f2",
+    "tarball": "https://registry.npmjs.org/angular-mentions/-/angular-mentions-0.9.0.tgz",
+    "unpackedSize": 54829
+  },
+  "gitHead": "e3d224831118f39825eb2e30c4287b3ef72e893e",
+  "homepage": "https://github.com/dmacfarlane/angular-mentions#readme",
+  "keywords": [
+    "angular",
+    "autocomplete",
+    "mention"
+  ],
+  "license": "MIT",
+  "main": "src/mention/index.ts",
+  "maintainers": [
+    {
+      "name": "dmacfarlane",
+      "email": "dan@dancity.com"
+    }
+  ],
+  "name": "angular-mentions",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@angular/common": ">=4.0.0",
+    "@angular/core": ">=4.0.0"
+  },
+  "private": false,
+  "readme": "# Angular Mentions\n\nSimple Angular mentions inspired by [Ment.io](https://github.com/jeff-collins/ment.io).\n\n[Click here for a Demo](http://dmacfarlane.github.io/angular-mentions/)\n\nProvides auto-complete suggestions for @mentions in text input fields, text areas,\nand content editable fields. Not fully browser tested and comes without warranty!\n\nTo install and start the demo application:\n\n    git clone https://github.com/dmacfarlane/angular-mentions.git\n    cd angular-mentions\n    npm install\n    ng serve\n\n### Usage\n\nAdd the package as a dependency to your project using:\n\n    npm install --save angular-mentions\n\nAdd the CSS to your index.html:\n\n```html\n<link rel=\"stylesheet\" href=\"//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css\">\n```\n\nAdd the module to your app.module imports:\n\n```typescript\nimport { MentionModule } from 'angular-mentions/mention';\n...\n\n@NgModule({\n    imports: [ MentionModule ],\n    ...\n})\n```\n\nAdd the `[mention]` directive to your input element:\n\n```html\n<input type=\"text\" [mention]=\"items\">\n```\n\nWhere `items` is a string array of the items to suggest. For example:\n\n```typescript\nitems: string[] = [\"Noah\", \"Liam\", \"Mason\", \"Jacob\", ...\n```\n\n#### Configuration Options\n\nThe following optional configuration items can be used.\n\n| Option        | Default  | Description |\n| ---           | ---      | ---         |\n| items         |          | An array of strings or objects to suggest. |\n| triggerChar   | @        | The character that will trigger the menu behavior. |\n| labelKey      | label    | The field to be used as the item label (when the items are objects). |\n| disableSort   | false    | Disable sorting of suggested items. |\n| disableSearch | false    | Disable internal filtering (only useful if async search is used). |\n| dropUp        | false    | Show the menu above the cursor instead of below. |\n| maxItems      | ∞        | Limit the number of items shown in the text. The default is no limit. |\n| mentionSelect |          | An optional function to format the selected item before inserting the text. |\n\nFor Example: \n\n```html\n<input type=\"text\" [mention]=\"items\" [mentionConfig]=\"{triggerChar:'#',maxItems:10,labelKey:'name'}\">\n```\n\n#### Output Events\n\n- `(searchTerm)=\"\"` event emitted whenever the search term changes. Can be used to trigger async search.\n\n### Alternative Usage\n\nThe component can also be used by only specifying the mentionConfig object:\n\n```html\n<input type=\"text\" [mentionConfig]=\"mentionConfig\">\n```\n\nWith the following structure:\n\n```javascript\nlet mentionConfig = {\n    items: [ \"Noah\", \"Liam\", \"Mason\", \"Jacob\", ... ],\n    triggerChar: \"@\",\n    ...\n}\n```\n\nIn this way, multiple config objects can be used:\n\n```javascript\nlet mentionConfig = {\n    configs: [\n        {\n            items: [ \"Noah\", \"Liam\", \"Mason\", \"Jacob\", ... ],\n            triggerChar: '@'\n        },\n        {\n            items: [ \"Red\", \"Yellow\", \"Green\", ... ],\n            triggerChar: '#'\n        },\n    }]\n}\n```\nThis allows different lists and trigger characters to be configured.\n\nNote that becuase objects are mutable, changes to the items within the config will not be picked up unless a new mentionConfig object is created.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmacfarlane/angular-mentions.git"
+  },
+  "scripts": {
+    "build": "ng build",
+    "dist": "ngc -p src/mention",
+    "e2e": "ng e2e",
+    "lint": "ng lint",
+    "ng": "ng",
+    "start": "ng serve",
+    "test": "ng test"
+  },
+  "version": "0.9.0"
+}

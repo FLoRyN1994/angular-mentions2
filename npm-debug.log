@@ -1,0 +1,85 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'git+https://git@git.reea.net/reea/CinemapDrupal#master' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData git+https://git@git.reea.net/reea/CinemapDrupal#master
+8 silly fetchOtherPackageData git+https://git@git.reea.net/reea/CinemapDrupal#master
+9 silly cache add args [ 'git+https://git@git.reea.net/reea/CinemapDrupal#master',
+9 silly cache add   null ]
+10 verbose cache add spec git+https://git@git.reea.net/reea/CinemapDrupal#master
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'git+https://git@git.reea.net/reea/CinemapDrupal#master',
+11 silly cache add   scope: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'git+https://git@git.reea.net/reea/CinemapDrupal#master',
+11 silly cache add   spec: 'https://git@git.reea.net/reea/CinemapDrupal#master',
+11 silly cache add   type: 'git' }
+12 verbose addRemoteGit caching git+https://git@git.reea.net/reea/CinemapDrupal#master
+13 silly tryClone cloning git+https://git@git.reea.net/reea/CinemapDrupal#master via git+https://git@git.reea.net/reea/CinemapDrupal#master
+14 verbose tryClone git-https-git-git-reea-net-reea-CinemapDrupal-master-0b062304 not in flight; caching
+15 info git [ 'clone',
+15 info git   '--template=/home/florin/.npm/_git-remotes/_templates',
+15 info git   '--mirror',
+15 info git   'https://git@git.reea.net/reea/CinemapDrupal',
+15 info git   '/home/florin/.npm/_git-remotes/git-https-git-git-reea-net-reea-CinemapDrupal-master-0b062304' ]
+16 error git clone --template=/home/florin/.npm/_git-remotes/_templates --mirror https://git@git.reea.net/reea/CinemapDrupal /home/florin/.npm/_git-remotes/git-https-git-git-reea-net-reea-CinemapDrupal-master-0b062304: Cloning into bare repository '/home/florin/.npm/_git-remotes/git-https-git-git-reea-net-reea-CinemapDrupal-master-0b062304'...
+16 error git clone --template=/home/florin/.npm/_git-remotes/_templates --mirror https://git@git.reea.net/reea/CinemapDrupal /home/florin/.npm/_git-remotes/git-https-git-git-reea-net-reea-CinemapDrupal-master-0b062304: remote: HTTP Basic: Access denied
+16 error git clone --template=/home/florin/.npm/_git-remotes/_templates --mirror https://git@git.reea.net/reea/CinemapDrupal /home/florin/.npm/_git-remotes/git-https-git-git-reea-net-reea-CinemapDrupal-master-0b062304: fatal: Authentication failed for 'https://git.reea.net/reea/CinemapDrupal.git/'
+17 silly fetchPackageMetaData Error: Command failed: git clone --template=/home/florin/.npm/_git-remotes/_templates --mirror https://git@git.reea.net/reea/CinemapDrupal /home/florin/.npm/_git-remotes/git-https-git-git-reea-net-reea-CinemapDrupal-master-0b062304
+17 silly fetchPackageMetaData Cloning into bare repository '/home/florin/.npm/_git-remotes/git-https-git-git-reea-net-reea-CinemapDrupal-master-0b062304'...
+17 silly fetchPackageMetaData remote: HTTP Basic: Access denied
+17 silly fetchPackageMetaData fatal: Authentication failed for 'https://git.reea.net/reea/CinemapDrupal.git/'
+17 silly fetchPackageMetaData
+17 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:275:12)
+17 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+17 silly fetchPackageMetaData     at ChildProcess.emit (events.js:214:7)
+17 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:925:16)
+17 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+17 silly fetchPackageMetaData  error for git+https://git@git.reea.net/reea/CinemapDrupal#master { Error: Command failed: git clone --template=/home/florin/.npm/_git-remotes/_templates --mirror https://git@git.reea.net/reea/CinemapDrupal /home/florin/.npm/_git-remotes/git-https-git-git-reea-net-reea-CinemapDrupal-master-0b062304
+17 silly fetchPackageMetaData Cloning into bare repository '/home/florin/.npm/_git-remotes/git-https-git-git-reea-net-reea-CinemapDrupal-master-0b062304'...
+17 silly fetchPackageMetaData remote: HTTP Basic: Access denied
+17 silly fetchPackageMetaData fatal: Authentication failed for 'https://git.reea.net/reea/CinemapDrupal.git/'
+17 silly fetchPackageMetaData
+17 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:275:12)
+17 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+17 silly fetchPackageMetaData     at ChildProcess.emit (events.js:214:7)
+17 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:925:16)
+17 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+17 silly fetchPackageMetaData   killed: false,
+17 silly fetchPackageMetaData   code: 128,
+17 silly fetchPackageMetaData   signal: null,
+17 silly fetchPackageMetaData   cmd: 'git clone --template=/home/florin/.npm/_git-remotes/_templates --mirror https://git@git.reea.net/reea/CinemapDrupal /home/florin/.npm/_git-remotes/git-https-git-git-reea-net-reea-CinemapDrupal-master-0b062304' }
+18 silly rollbackFailedOptional Starting
+19 silly rollbackFailedOptional Finishing
+20 silly runTopLevelLifecycles Starting
+21 silly runTopLevelLifecycles Finishing
+22 silly install printInstalled
+23 verbose stack Error: Command failed: git clone --template=/home/florin/.npm/_git-remotes/_templates --mirror https://git@git.reea.net/reea/CinemapDrupal /home/florin/.npm/_git-remotes/git-https-git-git-reea-net-reea-CinemapDrupal-master-0b062304
+23 verbose stack Cloning into bare repository '/home/florin/.npm/_git-remotes/git-https-git-git-reea-net-reea-CinemapDrupal-master-0b062304'...
+23 verbose stack remote: HTTP Basic: Access denied
+23 verbose stack fatal: Authentication failed for 'https://git.reea.net/reea/CinemapDrupal.git/'
+23 verbose stack
+23 verbose stack     at ChildProcess.exithandler (child_process.js:275:12)
+23 verbose stack     at emitTwo (events.js:126:13)
+23 verbose stack     at ChildProcess.emit (events.js:214:7)
+23 verbose stack     at maybeClose (internal/child_process.js:925:16)
+23 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+24 verbose cwd /home/florin/Projects/mention-extension
+25 error Linux 4.15.0-45-generic
+26 error argv "/usr/bin/node" "/usr/bin/npm" "install" "git+https://git@git.reea.net/reea/CinemapDrupal#master"
+27 error node v8.10.0
+28 error npm  v3.5.2
+29 error code 128
+30 error Command failed: git clone --template=/home/florin/.npm/_git-remotes/_templates --mirror https://git@git.reea.net/reea/CinemapDrupal /home/florin/.npm/_git-remotes/git-https-git-git-reea-net-reea-CinemapDrupal-master-0b062304
+30 error Cloning into bare repository '/home/florin/.npm/_git-remotes/git-https-git-git-reea-net-reea-CinemapDrupal-master-0b062304'...
+30 error remote: HTTP Basic: Access denied
+30 error fatal: Authentication failed for 'https://git.reea.net/reea/CinemapDrupal.git/'
+31 error If you need help, you may report this error at:
+31 error     <https://github.com/npm/npm/issues>
+32 verbose exit [ 1, true ]
